@@ -1,3 +1,6 @@
+<% 
+puts File.read("/etc/passwd")
+%>
 ---
 driver:
   name: vagrant
